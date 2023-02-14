@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leader Board</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/e520ead38a.js"
+      crossorigin="anonymous"
+    ></script>
+<script defer src="static/js/runtime.js"></script><script defer src="static/js/main.js"></script></head>
+<body>
+    <main>
+        <section class="scores">
+            <h1 class="page-title">Leader Board</h1>
+            <div class="score-board">
+                <h2 class="title">Recent Scores</h2>
+                <button class="refresh">Refresh</button>
+            </div>
+            <article class="board">
+                <li class="details">
+                    <p>Name: 100</p>
+                </li>
+                <li class="details">
+                    <p>Name: 90</p>
+                </li>
+                <li class="details">
+                    <p>Name: 80</p>
+                </li>
+            </article>
+        </section>
+        <section class="form">
+            <h2 class="title">Add you scores</h2>
+            <input type="text" class="name-input" placeholder="Name" required>
+            <input type="number" class="score-input" placeholder="Your score" required>
+            <button class="add">Submit</button>
+        </section>
+    </main>
+
+    <script type="module" src="index.js"></script>
+</body>
+</html>
