@@ -1,7 +1,7 @@
 {
   "name": "webpackexcercise",
   "version": "1.0.0",
-  "description": "",
+  "description": "<a name=\"readme-top\"></a>\r <!-- TABLE OF CONTENTS -->",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -22,6 +22,7 @@
   "devDependencies": {
     "css-loader": "^6.7.3",
     "esquery": "1.4.0",
+    "hint": "^2.0.0",
     "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.75.0",
@@ -30,5 +31,6 @@
   },
   "dependencies": {
     "lodash": "^4.17.21"
-  }
+  },
+  "main": "webpack.config.js"
 }
