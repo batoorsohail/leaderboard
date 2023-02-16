@@ -45,7 +45,6 @@
 
 
 ### Key Features <a name="key-features"></a>
-> Describe between 1-3 key features of the application.
 
 - **Add your name**
 - **Add your score**
@@ -55,8 +54,6 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
 
 - [Live Demo Link]()
 
@@ -91,7 +88,6 @@ Example commands:
   cd my-folder
   git clone https://github.com/batoorsohail/leaderboard.git
 ```
--
 
 ### Install
 
@@ -149,9 +145,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project give a star. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,14 +153,10 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
 I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
