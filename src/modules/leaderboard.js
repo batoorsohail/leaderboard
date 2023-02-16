@@ -2,7 +2,7 @@ import { getPoints } from './api.js';
 
 const nameInput = document.querySelector('.name-input');
 const scoreInput = document.querySelector('.score-input');
-const scoreContainer = document.querySelector('.score-container')
+const scoreContainer = document.querySelector('.score-container');
 
 const refreshPoints = async () => {
   const scores = await getPoints();

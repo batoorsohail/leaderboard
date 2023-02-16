@@ -4,7 +4,7 @@ import refreshPoints from './leaderboard.js';
 const addButton = document.querySelector('.add-btn');
 const nameInput = document.querySelector('.name-input');
 const scoreInput = document.querySelector('.score-input');
-const refresherBtn = document.querySelector('.refresh-btn')
+const refresherBtn = document.querySelector('.refresh-btn');
 
 addButton.addEventListener('click', async (e) => {
   e.preventDefault();
