@@ -27,7 +27,7 @@
 
 # 📖 Awesome Books <a name="about-project"></a>
 
-**Awesome books** is a a small project to help master basic javascript concepts eg classes objects, arrays and dom manipulation
+**Leader Board** is a small project that made using JavaScript API. You can add your name and your score. 
 
 ## 🛠 Built With <a name="built-with"></a>
 

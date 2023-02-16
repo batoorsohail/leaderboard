@@ -1,4 +1,5 @@
 import './style.css';
-import addButton from './modules/addScore.js';
+import refreshPoints from './modules/leaderboard.js';
+import './modules/addScore.js';
 
-addButton();
+refreshPoints();

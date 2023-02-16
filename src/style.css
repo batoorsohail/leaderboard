@@ -30,9 +30,15 @@ main {
 .board {
   display: flex;
   flex-direction: column;
-  gap: 10px;
   border: 1px solid #000;
   margin-top: 20px;
+}
+
+.score-container {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  overflow-y: scroll;
 }
 
 .details {
