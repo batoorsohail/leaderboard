@@ -70,8 +70,6 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-
-
 ```sh
  npm install
 ```
@@ -91,22 +89,17 @@ Example commands:
 
 ### Install
 
-Install this project with:
+To clone this repo go to "https://github.com/batoorsohail/leaderboard"
 
+git clone your repo
 
-### Usage
+cd into the folder
 
-To run the project, execute the following command:
+Install dependencies `$ npm install`
 
+If you want to build the project `$ npm run build` - this will build the project in /dist folder
 
-### Run tests
-
-To run tests, run the following command:
-
-
-### Deployment
-
-You can deploy this project using:
+Start the Project $ npm start - serve the project in browser
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
