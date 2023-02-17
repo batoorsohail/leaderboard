@@ -45,7 +45,6 @@
 
 
 ### Key Features <a name="key-features"></a>
-> Describe between 1-3 key features of the application.
 
 - **Add your name**
 - **Add your score**
@@ -55,8 +54,6 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
 
 - [Live Demo Link]()
 
@@ -72,8 +69,6 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
-
-
 
 ```sh
  npm install
@@ -91,26 +86,20 @@ Example commands:
   cd my-folder
   git clone https://github.com/batoorsohail/leaderboard.git
 ```
--
 
 ### Install
 
-Install this project with:
+To clone this repo go to "https://github.com/batoorsohail/leaderboard"
 
+git clone your repo
 
-### Usage
+cd into the folder
 
-To run the project, execute the following command:
+Install dependencies `$ npm install`
 
+If you want to build the project `$ npm run build` - this will build the project in /dist folder
 
-### Run tests
-
-To run tests, run the following command:
-
-
-### Deployment
-
-You can deploy this project using:
+Start the Project $ npm start - serve the project in browser
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -149,24 +138,10 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project give a star. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 

@@ -9,29 +9,62 @@
   font-family: 'Poppins', sans-serif;
 }
 
+body {
+  background: linear-gradient(90deg, rgba(2, 75, 216, 1) 0%, rgba(0, 249, 255, 1) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 main {
   width: 100%;
-  height: 100vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 15%;
+  justify-content: space-around;
+}
+
+.scores {
+  width: 35%;
 }
 
 .score-board {
   display: flex;
-  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .page-title {
   font-size: 50px;
+  color: #fff;
+  margin-top: 5%;
+  margin-bottom: 30px;
+}
+
+.title {
+  color: #fff;
+  font-size: 35px;
+}
+
+.refresh-btn {
+  padding: 10px 30px;
+  color: #024bd8;
+  font-size: 16px;
+  background: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.refresh-btn:hover {
+  color: #fff;
+  background-color: #0c7ce5;
 }
 
 .board {
   display: flex;
   flex-direction: column;
-  border: 1px solid #000;
   margin-top: 20px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .score-container {
@@ -39,19 +72,86 @@ main {
   flex-direction: column;
   height: 50vh;
   overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.score-container::-webkit-scrollbar {
+  display: none;
 }
 
 .details {
   display: inline;
   padding: 10px;
+  background-color: #53c8fa;
+}
+
+.fa-medal {
+  color: #fcd702;
+  margin-right: 10px;
 }
 
 .details:nth-child(even) {
-  background-color: lightgray;
+  background-color: rgb(255, 255, 255);
 }
 
 .form {
   display: flex;
   flex-direction: column;
+  width: 30%;
   gap: 20px;
+}
+
+.name-input {
+  border: none;
+  border-radius: 5px;
+  height: 5vh;
+  padding: 10px;
+}
+
+.score-input {
+  border: none;
+  border-radius: 5px;
+  height: 5vh;
+  padding: 10px;
+}
+
+.add-btn {
+  width: 150px;
+  align-self: flex-end;
+  padding: 10px 30px;
+  color: #024bd8;
+  font-size: 16px;
+  background: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.add-btn:hover {
+  color: #fff;
+  background-color: #0c7ce5;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .scores {
+    width: 90%;
+  }
+
+  .form {
+    width: 90%;
+  }
+
+  .add-btn {
+    width: 100%;
+  }
 }

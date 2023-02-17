@@ -12,7 +12,7 @@ const refreshPoints = async () => {
   scores.result.forEach((score) => {
     const pointsWrapper = document.createElement('li');
     pointsWrapper.classList.add('details');
-    pointsWrapper.innerHTML = `${score.user}: ${score.score}`;
+    pointsWrapper.innerHTML = ` <i class="fa-solid fa-medal"></i> ${score.user}: ${score.score}`;
     scoreContainer.appendChild(pointsWrapper);
   });
 
