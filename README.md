@@ -57,6 +57,8 @@
 
 - [Live Demo Link](https://batoorsohail.github.io/leaderboard/dist/)
 
+  <img src= "desktopVersion.JPG"></img>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
