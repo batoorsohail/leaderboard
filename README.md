@@ -58,6 +58,7 @@
 - [Live Demo Link](https://batoorsohail.github.io/leaderboard/dist/)
 
   <img src= "desktopVersion.JPG"></img>
+  <img src= "mobileVersion.JPG"></img>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
