@@ -12,9 +12,6 @@
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -74,7 +71,6 @@ In order to run this project you need:
  npm install
 ```
 
-
 ### Setup
 
 Clone this repository to your desired folder:
@@ -110,9 +106,9 @@ Start the Project $ npm start - serve the project in browser
 
 👤 **Batoor Sohail**
 
-- GitHub: [@battorsohail](https://github.com/battorsahail)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@batoorsohail](https://github.com/batoorsohail)
+- Twitter: [@twitterhandle](https://twitter.com/sohailBatoor)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/sohail-batoor-52429b230/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
